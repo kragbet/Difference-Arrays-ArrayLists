@@ -17,6 +17,8 @@ public class ArrayB {
 
         //added data to position "0" of the array, but moves data over one position. Second add addes data to the end of the array.
         fruits.add(0, "orange");
+
+        //extends the variable size past what it was originally iniztialized for.
         fruits.add("grapes");
 
         System.out.println("New Array: " + fruits);
@@ -33,6 +35,5 @@ public class ArrayB {
         //Returns how many elements are in the array
         int fruitSize = fruits.size();
         System.out.println(fruitSize);
-
     }
 }
