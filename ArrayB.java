@@ -10,18 +10,19 @@ public class ArrayB {
         fruits.add("pear");
         fruits.add("peaches");
 
-        //System.out.println("Original array: " + fruits);
+        System.out.println("Original array: " + fruits);
 
         //calls the fruit that's in position "0" of the array. Arrays positional count starts with "0"
         System.out.println(" Element in position 0: " + fruits.get(0));
 
-        //added data to position "0" of the array, but moves data over one position. Second add addes data to the end of the array.
+        //added data to position "0" of the array, and moves original data over one position.
         fruits.add(0, "orange");
+        System.out.println("Adds orange: " + fruits);
 
         //extends the variable size past what it was originally iniztialized for.
         fruits.add("grapes");
 
-        System.out.println("New Array: " + fruits);
+        System.out.println("New Array with added data: " + fruits);
 
         //to remove an element
         fruits.remove(0);
