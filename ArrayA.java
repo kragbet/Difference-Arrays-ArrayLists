@@ -14,13 +14,14 @@ public class ArrayA {
         //"orange" overwrites "apple" at position "0"
         System.out.println(Arrays.toString(fruits));
 
-        //but you will noticed that once an array is initalized it's length can not change.
+        //The commented line of code below will throw an error: noticed that once an array is initalized it's length can not change.
+        
+        // fruits[3] = "apple";
+        // System.out.println(Arrays.toString(fruits));
+
+        //The initialized array will maintain it's size.
         int fruitsLength = fruits.length;
 
         System.out.println(fruitsLength);
-
-        //Uncommnet the line of code below for an example of fixed size of arrays
-        // fruits[3] = "apple";
-        // System.out.println(Arrays.toString(fruits));
     }
 }
