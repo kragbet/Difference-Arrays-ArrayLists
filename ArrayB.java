@@ -35,6 +35,6 @@ public class ArrayB {
 
         //Returns how many elements are in the array
         int fruitSize = fruits.size();
-        System.out.println(fruitSize);
+        System.out.println("Initialized Array size has been increased: " + fruitSize);
     }
 }
